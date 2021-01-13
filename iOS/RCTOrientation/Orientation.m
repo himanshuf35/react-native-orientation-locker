@@ -20,7 +20,7 @@
 }
 
 #if (!TARGET_OS_TV)
-static UIInterfaceOrientationMask _orientationMask = UIInterfaceOrientationMaskAll;
+static UIInterfaceOrientationMask _orientationMask = UIInterfaceOrientationMaskPortrait;
 
 + (void)setOrientation: (UIInterfaceOrientationMask)orientationMask {
     _orientationMask = orientationMask;
